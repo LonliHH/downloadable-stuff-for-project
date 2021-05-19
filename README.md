@@ -1,2 +1,2 @@
 # downloadable-stuff-for-project
-a
+This thing is just used for java projects updates and stuff
