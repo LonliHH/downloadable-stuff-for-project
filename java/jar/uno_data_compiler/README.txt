@@ -1,2 +1,6 @@
-If you are willing to mess around with the files,
-Please be sure to keep a BACKUP just in case things get confusing.
+Please do not mess around with this jar file
+Instead, if you want to make your own tool,
+you can learn java and upload it to a site so you can share it
+with users :)
+
+Also, yes, this text file was downloaded with the tool itself
