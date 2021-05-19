@@ -1,7 +1,11 @@
 {
+	"toolName": "UNO Data Compiler",
 	"filename": "UNO Data Compiler",
 	"versions": [
 		"v1.0"
+	],
+	"extraFiles": [
+		
 	],
 	"author": "28TheLonelyGuyz"
 }
