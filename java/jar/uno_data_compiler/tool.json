@@ -1,7 +1,9 @@
 {
 	"filename": "UNO Data Compiler",
 	"versions": [
-		"1.0"
+		"1.0",
+		"1.1",
+		"1.2"
 	],
 	"author": "28TheLonelyGuyz"
 }
