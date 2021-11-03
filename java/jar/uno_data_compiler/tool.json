@@ -1,11 +1,9 @@
 {
 	"toolName": "UNO Data Compiler",
-	"filename": "UNO Data Compiler",
-	"versions": [
-		"v1.0"
-	],
+	"filename": "uno-data-compiler-v1.0.jar",
+	"version": "v1.0",
 	"extraFiles": [
 		"README.txt"
 	],
-	"author": "28TheLonelyGuyz"
+	"author": "Lonli"
 }
