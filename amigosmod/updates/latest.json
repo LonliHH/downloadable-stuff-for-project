@@ -1,0 +1,17 @@
+{
+  "version": "v2.8.2",
+  "files": [
+    {
+      "folder": "characters",
+      "children": [
+        "bf.json",
+        "bf.lua",
+        "bf-dead.json",
+        "cass.json",
+        "cassDiscord.json",
+        "cassDiscord.lua",
+        "dusgee.json"
+      ]
+    }
+  ]
+}
