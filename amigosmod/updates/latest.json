@@ -4,13 +4,29 @@
     {
       "folder": "characters",
       "files": [
-        "bf.json",
-        "bf.lua",
-        "bf-dead.json",
-        "cass.json",
-        "cassDiscord.json",
-        "cassDiscord.lua",
-        "dusgee.json"
+        ["bf.json", 0],
+        ["bf.lua", 1],
+        ["bf-dead.json", 2],
+        ["cass.json", 3],
+        ["cassDiscord.json", 4],
+        ["cassDiscord.lua", 5],
+        ["dusgee.lua", 6]
+      ]
+    },
+    {
+      "folder": "data",
+      "files": [
+        {
+          "folder": "2beep2meow",
+          "files": [
+            ["2beep2meow-lesgo.json", 7],
+            ["disableINS.txt", 8],
+            ["forcedcam.txt", 9],
+            ["preloadImg.txt", 10],
+            ["preloadSnd.txt", 11],
+            ["what.lua", 12]
+          ]
+        }
       ]
     }
   ]
