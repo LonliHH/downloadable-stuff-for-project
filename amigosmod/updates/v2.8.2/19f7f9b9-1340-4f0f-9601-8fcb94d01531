@@ -1,0 +1,1 @@
+{"healthicon":"dusgee","image":"characters\/dusky","healthbar_colors":[110,110,110],"camera_position":[400,820],"animations":[{"indices":[],"offsets":[-3,0],"loop":false,"fps":24,"name":"idle","anim":"idle"}],"flip_x":false,"sing_duration":4,"no_antialiasing":false,"scale":0.3,"position":[-500,-640]}
