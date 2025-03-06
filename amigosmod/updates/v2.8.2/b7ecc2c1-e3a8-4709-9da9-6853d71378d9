@@ -1,0 +1,9 @@
+function onCreate()
+	if boyfriendName == 'bf' then
+		setVar('am.death.charName', 'bf-dead')
+		setVar('am.death.charSprite', 'characters/BOYFRIEND_DEAD')
+		setVar('am.death.off.time', 1.25)
+	end
+
+	close()
+end
