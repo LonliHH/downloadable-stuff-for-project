@@ -3,7 +3,7 @@
   "files": [
     {
       "folder": "characters",
-      "children": [
+      "files": [
         "bf.json",
         "bf.lua",
         "bf-dead.json",
