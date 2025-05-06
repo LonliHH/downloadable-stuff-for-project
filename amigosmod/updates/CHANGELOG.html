@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+<style>
+body {
+	background-color: #5b69a0;
+	color: white;
+}
+
+h1, h2 {
+	font-family: 'Nunito', sans-serif;
+}
+
+ul, li {
+	font-family: 'Nunito', sans-serif;
+	font-style: italic;
+}
+
+.yippee {
+	width: 5%;
+	height: 5%;
+}
+
+#centered-headers {
+	text-align: center;
+}
+</style>
+
+<h1 id="centered-headers">AMIGOS MOD CHANGELOG</h1>
+<h2 id="centered-headers">LETS GO!!1</h2>
+<p id="centered-headers"><img src="https://lonlihh.github.io/downloadable-stuff-for-project/amigosmod/updates/yippee.png" class="yippee"/></p>
+<br/>
+<h1 id="v2-8-1-i-dont-even-know-when-it-started-">v2.8.1 (I DONT EVEN KNOW WHEN IT STARTED):</h1>
+<ul>
+<li>i forgor</li>
+</ul>
+<br/>
+<h1 id="v2-8-2-started-1-31-2025-">v2.8.2 (STARTED 1/31/2025):</h1>
+<h2 id="-changes-">[ CHANGES ]</h2>
+<ul>
+<li>Moved some mod assets to lonlihh folder</li>
+<li>Overhauled ext_funcs.hx (probably the backbone of the mod) functions to not be event-reliant</li>
+<li>Window icon changes upon entering the mod (unfortunately does not go back to original icon upon exiting because idk how)</li>
+<li>Moved opponent strums behind opponent in Insubordination song</li>
+<li>Strums are now 40% transparent due to layering issues in Insubordination song</li>
+<li>Made options_list.txt more readable</li>
+<li>Reorganized menu scene scripts</li>
+<li>Made adjustments for the week logo for Kaboom song</li>
+<li>Changed the week logo for Mania Maniac song</li>
+<li>Made adjustments for the freeplay song status bar</li>
+<li>Reorganized menu code (again)</li>
+<li>Menu nowplaying.lua now changes the bar status immediately instead of queueing</li>
+<li>Easter egg&#39;s exit scene now uses glitch shader instead of grid wave shader</li>
+<li>Optimized easter egg&#39;s communication method</li>
+<li>Reorganized menu code (AGAIN #2), moved easter egg functions to its respective script file</li>
+<li>Made the combo counters to match the color of the player&#39;s notes</li>
+<li>Made option menu&#39;s resize method more accurate</li>
+<li>Made the circle mechanic to be compatible with playbackRate adjustments</li>
+<li>Updated debug console (Version: 1.0.1)</li>
+<li>Adjusted circle mechanic scaling speed to slightly be more accurate to the hit time</li>
+<li>Changed the icon to another version from one of my libGDX projects</li>
+<li>Did some slight adjustments to the Instrumental and Vocal tracks of Blue cover song</li>
+<li>Changed the general save path for the mod</li>
+</ul>
+<h2 id="-fixes-optimizations-">[ FIXES / OPTIMIZATIONS ]</h2>
+<ul>
+<li>Fixed decaching functions</li>
+<li>Fixed &quot;optStrumDance&quot; option being flipped in Tutorial song</li>
+<li>Fixed wonky camera movements in Insubordination song</li>
+<li>Fixed camThing.lua script not allowing any external camera manipulation other than itself</li>
+<li>Optimized some animations in menu</li>
+<li>Fixed finish bypass when botplay is on</li>
+<li>Optimized pause menu backend code</li>
+<li>In certain circumstances, only the needed menu scenes will load (That is if the optimization option is enabled)</li>
+<li>Fixed scene change events being called more than once</li>
+<li>Fixed health and time bar assets having an extra pixel outside the bar outlines</li>
+<li>Fixed accidentally stacked notes in Abuse song</li>
+<li>Fixed save system messing up and completely making the menu noninteractive</li>
+<li>Fixed Quick Death Restart option crashing the game upon player death</li>
+<li>Fixed circle mechanic rating system not showing up when playing on Botplay</li>
+<li>Optimized song tag to title conversion in Freeplay menu</li>
+<li>Fixed Psych Engine throwing errors whenever player misses a note and has &quot;One-Miss Hold Notes&quot; option enabled</li>
+<li>Backend code optimizations (Subversion 6)</li>
+<li>Backend code cleanup (Subversion 7)</li>
+<li>When an error occurs, it only restarts the current state of the game instead of reloading everything now (Subversion 9)</li>
+</ul>
+<h2 id="-added-">[ ADDED ]</h2>
+<ul>
+<li>Added a set of strums (arrows) for Red in 2beep2meow cover song</li>
+<li>Added a set of strums for Keep in Blue cover song</li>
+<li>Added SaveType 2 (Psych Engine options) to Options screen</li>
+<li>Added an easter egg to the menu... :)</li>
+<li>Added &quot;Unforgiving Hold Notes&quot; and &quot;One-Miss Hold Notes&quot; as options</li>
+<li>Added a rating system for the circle mechanic in Mania Maniac song</li>
+<li>Added a blended accuracy between notes and circle accuracy in Mania Maniac song (80% - notes, 20% - circles)</li>
+<li>Continuation countdown option</li>
+<li>Combo counter now has animation for hold notes</li>
+<li>Added a pop-up screen informing the user about the changing of the save path (Subversion 7)</li>
+<li>Added a disclaimer screen (Subversion 8)</li>
+<li>Removed the 0.0001 second delay when loading up the easter egg of the menu (Subversion 9)</li>
+</ul>
+<h2 id="-to-be-added-to-be-fixed-in-progress-">[ TO BE ADDED / TO BE FIXED / IN PROGRESS ]</h2>
+<ul>
+<li>[30%] Added credits screen</li>
+<li>Fix dusky disappearing when walking to the right side and then interrupting his walk by going into freeplay, options, or credits</li>
+<li>Animate strums not working because of custom countdown script</li>
+<li>[50% Blue Cover song sprites and cutscene]</li>
+<li>[5% Story Mode: Storyline, Voice Acting, Background work, Animation, Dialogue UI Design, Gameplay Design, Coding]</li>
+</ul>
+
+</head>
+</html>
